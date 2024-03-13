@@ -1,4 +1,4 @@
-const TeleClass = require('./body');
+const TeleClass = require('./class.js');
 const bot = new TeleClass({ token: "your_bot_token" });
 
 bot.start();
